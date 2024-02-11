@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="https://avatars.githubusercontent.com/u/84500134?v=4"
-              alt="Sergej portrait"
+              alt="Ricardo portrait"
               width="192"
               height="192"
               quality="95"
