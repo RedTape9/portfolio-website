@@ -1,10 +1,7 @@
 import React from "react";
 import { FaCode } from "react-icons/fa6";
-
-import { FaReact } from "react-icons/fa";
+import { PiStudentDuotone } from "react-icons/pi";
 import { LiaCertificateSolid } from "react-icons/lia";
-
-import { LuGraduationCap } from "react-icons/lu";
 import nextUpManagerImg from "@/public/nextUpManager.png";
 import afsalertImg from "@/public/afs-alert.png";
 import bestrecipeappImg from "@/public/bestrecipeapp.png";
@@ -58,7 +55,7 @@ export const experiencesData = [
     location: "MySchool - Hamburg",
     description:
       "Durch einen glücklichen Zufall bot sich mir die Möglichkeit, meinen langersehnten Traum zu verwirklichen. Ich habe die Chance ergriffen und die Umschulung zum Fachinformatiker - Anwendungsentwickler erfolgreich abgeschlossen.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(PiStudentDuotone),
     date: "2020 - 2022",
   },
 ] as const;
