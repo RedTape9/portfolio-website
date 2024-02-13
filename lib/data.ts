@@ -38,24 +38,24 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "neuefische bootcamp",
-    location: "remote",
+    title: "bootcamp Java Development",
+    location: "neuefische - remote",
     description:
       "Hier habe ich meinen Skills einen Feinschliff verpasst. Insbesondere in Java und Spring Boot. Vielen Dank @neuefische! Es war eine tolle Zeit mit euch!",
     icon: React.createElement(FaCode),
     date: "02/2024",
   },
   {
-    title: "Zertifizierungen bei CBW",
-    location: "Hamburg",
+    title: "Zertifizierungen",
+    location: "CBW - Hamburg",
     description:
       "Für meinen weiteren Weg, habe ich hier meine Kenntnisse in drei Programmiersprachen (JavaScript, PHP, Java) vertieft. Jede dieser Etaphen habe ich mit einer Zertifizierung erfolgreich abgeschlossen.",
     icon: React.createElement(LiaCertificateSolid),
     date: "2022 - 2023",
   },
   {
-    title: "Umschulung zum Anwendungsentwickler bei MyScool",
-    location: "Hamburg",
+    title: "Umschulung zum Anwendungsentwickler",
+    location: "MySchool - Hamburg",
     description:
       "Durch einen glücklichen Zufall bot sich mir die Möglichkeit, meinen langersehnten Traum zu verwirklichen. Ich habe die Chance ergriffen und die Umschulung zum Fachinformatiker - Anwendungsentwickler erfolgreich abgeschlossen.",
     icon: React.createElement(FaReact),
