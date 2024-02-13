@@ -21,9 +21,22 @@ export default function Project({
   const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
+  const goToSite = () => {
+    if (title === "NextUp Manager") {
+      window.open("https://next-up-manager.onrender.com", "_blank");
+    }
+    else if (title === "AFS -Alert ") {
+      window.open("https://github.com/RedTape9/afs-alert", "_blank");
+    }
+    else if (title === "BestRecipeApp") {
+      window.open("https://github.com/RedTape9/recipe-app", "_blank");
+    }
+  }
+
   return (
     <motion.div
       ref={ref}
+      onClick={goToSite}
       style={{
         scale: scaleProgess,
         opacity: opacityProgess,
