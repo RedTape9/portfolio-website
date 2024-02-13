@@ -1,10 +1,13 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { FaCode } from "react-icons/fa6";
+
 import { FaReact } from "react-icons/fa";
+import { LiaCertificateSolid } from "react-icons/lia";
+
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import nextUpManagerImg from "@/public/nextUpManager.png";
+import afsalertImg from "@/public/afs-alert.png";
+import bestrecipeappImg from "@/public/bestrecipeapp.png";
 
 export const links = [
   {
@@ -12,11 +15,11 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Über Mich",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Projekte",
     hash: "#projects",
   },
   {
@@ -24,84 +27,101 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Werdegang",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Kontakt",
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "neuefische bootcamp",
+    location: "remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Hier habe ich meinen Skills einen Feinschliff verpasst. Insbesondere in Java und Spring Boot. Vielen Dank @neuefische! Es war eine tolle Zeit mit euch!",
+    icon: React.createElement(FaCode),
+    date: "02/2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Zertifizierungen bei CBW",
+    location: "Hamburg",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Für meinen weiteren Weg, habe ich hier meine Kenntnisse in drei Programmiersprachen (JavaScript, PHP, Java) vertieft. Jede dieser Etaphen habe ich mit einer Zertifizierung erfolgreich abgeschlossen.",
+    icon: React.createElement(LiaCertificateSolid),
+    date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Umschulung zum Anwendungsentwickler bei MyScool",
+    location: "Hamburg",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Durch einen glücklichen Zufall bot sich mir die Möglichkeit, meinen langersehnten Traum zu verwirklichen. Ich habe die Chance ergriffen und die Umschulung zum Fachinformatiker - Anwendungsentwickler erfolgreich abgeschlossen.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2020 - 2022",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "NextUp Manager",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Skalierbare React SPA. Dieses simuliert ein Tickersystem, ähnlich wie es bei Behörden üblich ist.",
+    tags: ["React", "TypeScript", "Java", "Spring Boot", "MongoDB", "Bootstrap", "Docker", "CI/CD", "SonarCloud", "Testing"],
+    imageUrl: nextUpManagerImg,
   },
   {
-    title: "rmtDev",
+    title: "AFS -Alert ",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Eine mobile App für iOS und Android Geräte für AFS - Interkulturelle Begegnungen e.V. Mit Authentifizierung über Firebase und Push - Nachrichten mit EXpo CLI. ",
+    tags: ["React-Native", "JavaScript", "Firebase", "Expo-CLI"],
+    imageUrl: afsalertImg,
   },
   {
-    title: "Word Analytics",
+    title: "BestRecipeApp",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "In einem dynamischen Team von vier Personen entwickelten wir eine Rezepte - SPA, die CRUD-Operationen ermöglicht. Angelehnt an Scrum-Methoden.",
+    tags: ["React", "TypeScript", "Spring Boot", "MongoDB", "SASS", "Docker", "CI/CD", "SonarCloud"],
+    imageUrl: bestrecipeappImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Java",
+  "Spring Boot",
+  "JUnit5",
+  "Mockito",
+  "Integration Testing",
+  "TDD",
+  "Postman",
+  "Maven",
+  "DevOps",
+  "Deployment",
+  "CRUD",
+  "SOAP",
   "JavaScript",
   "TypeScript",
+  "HTML5",
+  "CSS3",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
+  "React Native",
+  "FireBase",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Node.js",
+  "Express.js",
+  "CI/CD",
+  "REST API",
+  "Docker",
+  "SonarCloud",
+  "Scrum",
+  "Kanban",
+  "Clean Code",
+  "OOP",
+  "Pair Programming",
+  "Git",
+  "Bootstrap",
+  "PHP",
+  "MySQL",
+  
 ] as const;

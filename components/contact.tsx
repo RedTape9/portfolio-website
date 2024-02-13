@@ -29,14 +29,14 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contact me</SectionHeading>
+      <SectionHeading>Kontakt</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
-        <a className="underline" href="mailto:redtape9688@gmail.com">
-          redtape9688@gmail.com
+        Bitte schreiben Sie mir an{" "}
+        <a className="underline" href="mailto:ser.jaudszims@gmail.com">
+          ser.jaudszims@gmail.com
         </a>{" "}
-        or through this form.
+        oder über das Formular.
       </p>
 
       <form
@@ -58,12 +58,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="Ihre E-Mail"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="Your message"
+          placeholder="Ihre Nachricht"
           required
           maxLength={5000}
         />
