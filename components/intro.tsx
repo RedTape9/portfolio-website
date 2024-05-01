@@ -68,6 +68,7 @@ export default function Intro() {
         <span className="underline">PHP und Symfony</span> weiter.
       </motion.h1>
 
+
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
