@@ -67,12 +67,9 @@ export const projectsData = [
       "Skalierbare React SPA. Dieses simuliert ein Tickersystem, ähnlich wie es bei Behörden üblich ist.",
     tags: ["React", "TypeScript", "Java", "Spring Boot", "MongoDB", "Bootstrap", "Docker", "CI/CD", "SonarCloud", "Testing"],
     imageUrl: nextUpManagerImg,
-    onClick: () => {
-      window.open("https://next-up-manager.onrender.com", "_blank");
-    },
   },
   {
-    title: "AFS -Alert ",
+    title: "AFS - Alert ",
     description:
       "Eine mobile App für iOS und Android Geräte für AFS - Interkulturelle Begegnungen e.V. Mit Authentifizierung über Firebase und Push - Nachrichten mit EXpo CLI. ",
     tags: ["React-Native", "JavaScript", "Firebase", "Expo-CLI"],

@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="https://avatars.githubusercontent.com/u/84500134?v=4"
-              alt="Ricardo portrait"
+              alt="Sergejs avatar"
               width="192"
               height="192"
               quality="95"
@@ -65,7 +65,7 @@ export default function Intro() {
         <span className="font-bold">Hi, Ich bin Sergej.</span>{" "}
         <span className="font-bold">Backend Entwickler</span> aus{" "}
         <span className="font-bold">Leidenschaft</span>. Derzeit bilde ich mich in {" "}
-        <span className="underline">Spring Boot</span> weiter.
+        <span className="underline">PHP und Symfony</span> weiter.
       </motion.h1>
 
       <motion.div

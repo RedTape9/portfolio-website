@@ -25,7 +25,7 @@ export default function Project({
     if (title === "NextUp Manager") {
       window.open("https://next-up-manager.onrender.com", "_blank");
     }
-    else if (title === "AFS -Alert ") {
+    else if (title === "AFS - Alert ") {
       window.open("https://github.com/RedTape9/afs-alert", "_blank");
     }
     else if (title === "BestRecipeApp") {
