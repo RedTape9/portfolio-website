@@ -35,12 +35,20 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Java Entwickler und Consultant",
+    location: "Adesso Insurance Solutions GmbH - Hamburg",
+    description:
+      "Als Java-Entwickler optimiere ich den reibungslosen Zahlungsverkehr im Versicherungswesen, indem ich unsere leistungsstarke Standardsoftware PayTras kontinuierlich weiterentwickle und präzise auf die individuellen Anforderungen unserer Kunden zuschneide.",
+    icon: React.createElement(PiCurrencyCircleDollar),
+    date: "07/2024 - heute",
+  },
+  {
     title: "bootcamp Java Development",
     location: "neuefische - remote",
     description:
       "Hier habe ich meinen Skills einen Feinschliff verpasst. Insbesondere in Java und Spring Boot. Vielen Dank @neuefische! Es war eine tolle Zeit mit euch!",
     icon: React.createElement(FaCode),
-    date: "02/2024",
+    date: "10/2023 - 02/2024",
   },
   {
     title: "Zertifizierungen",
