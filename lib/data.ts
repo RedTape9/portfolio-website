@@ -39,7 +39,7 @@ export const experiencesData = [
     location: "Adesso Insurance Solutions GmbH - Hamburg",
     description:
       "Als Java-Entwickler optimiere ich den reibungslosen Zahlungsverkehr im Versicherungswesen, indem ich unsere leistungsstarke Standardsoftware PayTras kontinuierlich weiterentwickle und präzise auf die individuellen Anforderungen unserer Kunden zuschneide.",
-    icon: React.createElement(PiCurrencyCircleDollar),
+    icon: React.createElement(FaLaptopCode),
     date: "07/2024 - heute",
   },
   {
