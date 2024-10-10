@@ -64,8 +64,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, Ich bin Sergej.</span>{" "}
         <span className="font-bold">Backend Entwickler</span> aus{" "}
-        <span className="font-bold">Leidenschaft</span>. Derzeit bilde ich mich in {" "}
-        <span className="underline">Java und Spring Boot</span> weiter.
+        <span className="font-bold">Leidenschaft</span>. Derzeit arbeite ich mit {" "}
+        <span className="underline">Java EE und JSF</span> in der Versicherungsbranche.
       </motion.h1>
 
 

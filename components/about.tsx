@@ -25,10 +25,10 @@ export default function About() {
         Ich <span className="underline">liebe</span> das Gefühl, wenn ich ein Problem gelöst habe. Ich lasse mich leicht von neuen Technologien begeistern und bin immer auf der Suche nach Herausforderungen.
         Mein Core-Stack ist{" "}
         <span className="font-medium">
-          React, Spring Boot und MongoDB
+          React, Spring Boot und Java EE
         </span>
-        . Ich interessiere mich ebenfalls für mobile App - Entwicklung. Aktuell suche ich nach einer Vollzeitstelle als {" "}
-        <span className="font-medium">Backend</span> oder <span className="font-medium">FullStack Entwickler</span>, wo ich mich mit Gleichgesinnten so richtig austoben kann.
+        . Ich interessiere mich ebenfalls für mobile App - Entwicklung und AI. Aktuell arbeite ich als {" "}
+        <span className="font-medium">Java EE Entwickler</span> bei <span className="font-medium">Adesso insurance soulutions GmbH</span> im Bereich der Versicherungs-Zahlungsverkehr Software.
       </p>
 
       <p>
